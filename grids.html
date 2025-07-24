@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap:30px;
+  
+}
+.item-2{ background: white;
+      
+      position: relative;
+      text-align: center;}
+
+.item-2 .img{
+  width: 100%;
+  height: auto;
+}
+ 
+
+
+.item-2 .btn1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  color: rgb(148, 21, 21);
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor:help;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn1:hover {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Button on Image</h2>
+
+<p>Add a button on an image:</p>
+
+<div class="container">
+    <div class="item-2">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.2aE92hjtF0vy9HOuecLLOgHaE8?pid=Api&P=0&h=180" alt="Snow" style="width:100%">
+  <button class="btn1">Button</button></div>
+  <div class="item-2">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.jHvTOSF7924Ah63W7mozxQHaEo?pid=Api&P=0&h=180" style="width:100%"><button class="btn1">Button</button>
+  </div>
+  <div class="item-2">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.jHvTOSF7924Ah63W7mozxQHaEo?pid=Api&P=0&h=180" style="width:100%"><button class="btn1">Button</button>
+  </div>  
+</div>
+
+</body>
+</html>
